@@ -125,36 +125,6 @@ def getEnglishTags(filename):
                     tags[w[0]].append(i)
     return tags
 
-# tags = {}
-
-
-# titles = getTranlatedTitles()
-# text = ' '.join(titles).lower()
-# regex = RegexpTokenizer(r'\w+')
-# filtered = regex.tokenize(text)
-
-# stop_words = set(stopwords.words('english'))
-# filtered = [w for w in filtered if (not w in stop_words and len(w) > 3)]
-# freq = nltk.FreqDist(filtered)
-
-# for w in freq.most_common(len(filtered)):
-#     for i, t in enumerate(titles):
-#         if t.find(w[0]) != -1:
-#             if tags.get(w[0]) == None:
-#                 tags[w[0]] = [i]
-#             else:
-#                 tags[w[0]].append(i)
-
-# uzb_titles = getSampleTitles(getSampleJson())
-# uzb_tags = getUzbTags()
-#
-# print("Enter tag: ")
-# keys = input().split(' ')
-# print('Union')
-# print(unionSearchTag(keys, uzb_tags, uzb_titles))
-# print('\nIntersection')
-# print(interSearchTag(keys, uzb_tags, uzb_titles))
-
 def init(URL):
     data = getDataFromUrl(URL)
     url_hash = str(hashlib.sha256(URL.encode()).hexdigest())

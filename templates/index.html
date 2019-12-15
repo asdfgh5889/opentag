@@ -20,8 +20,8 @@
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
                         <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                            <div class="input-group"><input id="url_input" class="bg-light form-control border-0 small" type="text" placeholder="Enter URL">
+                                <div class="input-group-append"><button id="generate" class="btn btn-primary py-0" type="button"><i class="fas fa-play"></i></button></div>
                             </div>
                         </form>
                     </div>
@@ -33,12 +33,21 @@
                         <div class="col">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="text-primary d-flex flex-row font-weight-bold m-0"><span class="d-xl-flex align-items-xl-center" style="width: 100%;">Filter</span><button id="apply_tags" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Apply</button></h6>
+                                    <h6 class="text-primary d-flex flex-row font-weight-bold m-0"><span class="d-xl-flex align-items-xl-center" style="width: 100%;">Filter</span>
+                                    <button id="apply_tags" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Intersection</button></h6>
+                                    <div style="width: 20px"></div>
+                                    <button id="apply_tags_u" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Union</button></h6>
                                 </div>
                                 <div class="card-body" style="display: contents">
                                     <select class="multipleSelect" multiple name="tag">
                                     {% for t, v in tags.items() %}
-                                        <option value="{{ t }}">{{ t }}</option>
+                                        <option
+
+                                        {% if t in selected %}
+                                        selected
+                                        {% endif %}
+
+                                         value="{{ t }}">{{ t }}</option>
                                     {% endfor %}
                                     </select>
                                 </div>
@@ -127,6 +136,12 @@
         $('.multipleSelect').fastselect();
         var ctxD = document.getElementById("tags-chart").getContext('2d');
         var limit = 10
+        tags_map = {
+            {% for t, v in tags.items() %}
+            "{{ t }}": "{{ v }}",
+            {% endfor %}
+        }
+
         tags = [
             {% for t, v in tags.items() %}
             "{{ t }}",
@@ -186,6 +201,13 @@
 
 
         function getLineLabes() {
+            var selected_tags = [];
+            $.each($(".multipleSelect option:selected"), function(){            
+                selected_tags.push($(this).val());
+            });
+            if (selected_tags.length > 0)
+                return selected_tags
+
             result = []
             for (var i = 0; i < tag_values.length; i++) {
                 if (tag_values[i] > 2)
@@ -197,6 +219,16 @@
 
         function getLineData() {
             result = []
+            var selected_tags = [];
+            $.each($(".multipleSelect option:selected"), function(){            
+                selected_tags.push($(this).val());
+            });
+            if (selected_tags.length > 0)
+                for (var i = 0; i < selected_tags.length; i++)
+                    result.push(tags_map[selected_tags[i]])
+                return result
+
+            
             for (var i = 0; i < tag_values.length; i++) {
                 if (tag_values[i] > 2)
                     result.push(tag_values[i])
@@ -256,6 +288,24 @@
             }
             d = selected_tags.join(',')
             window.location.replace('http://localhost:5000/?tags=' + d)
+        })
+
+        $("#apply_tags_u").click(function() {
+            var selected_tags = [];
+            $.each($(".multipleSelect option:selected"), function(){            
+                selected_tags.push($(this).val());
+            });
+            
+            for(var i = 0; i < selected_tags.length; i++) {
+                selected_tags[i] = encodeURIComponent(selected_tags[i])
+            }
+            d = selected_tags.join(',')
+            window.location.replace('http://localhost:5000/?tags_u=' + d)
+        })
+
+        $("#generate").click(function() {
+            url_raw = document.getElementById("url_input").value
+            window.location.replace('http://localhost:5000/?url=' + encodeURIComponent(url_raw))
         })
     </script>
 </body>
