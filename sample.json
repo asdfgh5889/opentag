@@ -1,0 +1,898 @@
+[
+    {
+        "id": "626",
+        "code": "40-626",
+        "title": "O'zbekiston Respublikasida qurilish loyihalari ekspertizadan o'tkazish huquqini beruvchi litsenziyaga ega tashkilotlar ro\u2018yxati",
+        "description": "O'zbekiston Respublikasida qurilish loyihalari ekspertizadan o'tkazish huquqini beruvchi litsenziyaga ega tashkilotlar ro\u2018yxati",
+        "authority_id": "40"
+    },
+    {
+        "id": "627",
+        "code": "40-627",
+        "title": "Ko\u2018priklar va tonnellarni loyihalashtirish, qurish, ulardan foydalanish va ularni ta\u2019mirlash faoliyatni amalga oshirish litsenziyasiga ega litsenziatlar ro\u2018yxati (2009-2015 yillar davrida)",
+        "description": "Ko\u2018priklar va tonnellarni loyihalashtirish, qurish, ulardan foydalanish va ularni ta\u2019mirlash faoliyatni amalga oshirish litsenziyasiga ega litsenziatlar ro\u2018yxati (2009-2015 yillar davrida)",
+        "authority_id": "40"
+    },
+    {
+        "id": "628",
+        "code": "40-628",
+        "title": "Xavfi yuqori bo\u2018lgan obyektlarni hamda potentsial xavfli ishlab chiqarishlarni loyihalashtirish, qurish va ulardan foydalanish litsenziyasiga ega litsenziatlar va litsenziyaga talabgorlar ro'yxati (2009-2015 yillar davrida)",
+        "description": "Xavfi yuqori bo\u2018lgan obyektlarni hamda potentsial xavfli ishlab chiqarishlarni loyihalashtirish, qurish va ulardan foydalanish litsenziyasiga ega litsenziatlar va litsenziyaga talabgorlar ro'yxati (2009-2015 yillar davrida)",
+        "authority_id": "40"
+    },
+    {
+        "id": "748",
+        "code": "139-748",
+        "title": "Toshkent shahrida ommaviy sotuvga qo'yilgan bino va inshootlar",
+        "description": "Toshkent shahrida ommaviy sovdolarda turgan davlat aktivlari to'g'risida ma'lumot",
+        "authority_id": "139"
+    },
+    {
+        "id": "752",
+        "code": "139-752",
+        "title": "Toshkent shahar yer tuzish va ko\u2018chmas mulk kadastri davlat korxonasining tuman bo\u2018limlari (noturar joy)",
+        "description": "Toshkent shahar yer tuzish va ko\u2018chmas mulk kadastri davlat korxonasining tuman bo\u2018limlari (noturar joy)",
+        "authority_id": "139"
+    },
+    {
+        "id": "753",
+        "code": "139-753",
+        "title": "Toshkent shahar yer tuzish va ko\u2018chmas mulk kadastri davlat korxonasining tuman bo\u2018limlari (turar joy)",
+        "description": "Toshkent shahar yer tuzish va ko\u2018chmas mulk kadastri davlat korxonasining tuman bo\u2018limlari (turar joy)",
+        "authority_id": "139"
+    },
+    {
+        "id": "757",
+        "code": "139-757",
+        "title": "Xususiy uy-joy mulkdorlar shirkati hududiy bo\u2018limlarining ro\u2018yxati",
+        "description": "Xususiy uy-joy mulkdorlar shirkati hududiy bo\u2018limlarining ro\u2018yxati",
+        "authority_id": "139"
+    },
+    {
+        "id": "789",
+        "code": "120-789",
+        "title": "Sidaryo viloyatining 2014-2015 yillar davomidagi asosiy iqtisodiy va ijtimoiy ko'rsatgichlari",
+        "description": "Sidaryo viloyatining 2014-2015 yillar davomidagi asosiy iqtisodiy va ijtimoiy ko'rsatgichlari",
+        "authority_id": "120"
+    },
+    {
+        "id": "1052",
+        "code": "139-1052",
+        "title": "Toshkent shahrida qurilayotgan namunali uylar to'g'risida ma'lumot",
+        "description": "Toshkent shahrida qurilayotgan namunali uylar to'g'risida ma'lumot",
+        "authority_id": "139"
+    },
+    {
+        "id": "1087",
+        "code": "146-1087",
+        "title": "Toshkent viloyati 2014-yil dasturiga asosan namunaviy uylarni qurish rejasi",
+        "description": "Toshkent viloyati 2014-yil dasturiga asosan namunaviy uylarni qurish rejasi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1096",
+        "code": "146-1096",
+        "title": "Toshkent viloyatida  2014 yilning yanvar-dekabr oylari yakunlari bo\u2018yicha kommunal xo\u2018jaligi ko\u2018satkichlari",
+        "description": "Toshkent viloyatida  2014 yilning yanvar-dekabr oylari yakunlari bo\u2018yicha kommunal xo\u2018jaligi ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1097",
+        "code": "146-1097",
+        "title": "Toshkent viloyatida  2014-yil yakunida uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "description": "Toshkent viloyatida  2014-yil yakunida uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1098",
+        "code": "146-1098",
+        "title": "Toshkent viloyatida  2015-yil 2-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "description": "Toshkent viloyatida  2015-yil 2-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1099",
+        "code": "146-1099",
+        "title": "Toshkent viloyatida  2015-yil 3-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "description": "Toshkent viloyatida  2015-yil 3-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1100",
+        "code": "146-1100",
+        "title": "Toshkent viloyatida  2015-yil 4-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "description": "Toshkent viloyatida  2015-yil 4-chorakda uy-joy qurilishi, gaz va suv tarmoqlarini ishga tushirish bo\u2018yicha rejalarning bajarilishi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1112",
+        "code": "146-1112",
+        "title": "Toshkent viloyati 2015-yil dasturiga asosan namunaviy uylarni qurish rejasi",
+        "description": "Toshkent viloyati 2015-yil dasturiga asosan namunaviy uylarni qurish rejasi",
+        "authority_id": "146"
+    },
+    {
+        "id": "1113",
+        "code": "146-1113",
+        "title": "Toshkent viloyatida  2015-yilning 1-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "description": "Toshkent viloyatida  2015-yilning 1-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1115",
+        "code": "146-1115",
+        "title": "Toshkent viloyatida  2015-yilning 2-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "description": "Toshkent viloyatida  2015-yilning 2-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1116",
+        "code": "146-1116",
+        "title": "Toshkent viloyatida  2015-yilning 3-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "description": "Toshkent viloyatida  2015-yilning 3-chorak  yakunlari bo\u2018yicha Kapital Qurilish ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1117",
+        "code": "146-1117",
+        "title": "2015-yilning yanvar-dekabr oylari yakuni bo\u2018yicha Kapital qo\u2018yilmalar ko\u2018satkichlari",
+        "description": "2015-yilning yanvar-dekabr oylari yakuni bo\u2018yicha Kapital qo\u2018yilmalar ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1118",
+        "code": "146-1118",
+        "title": "2015-yilning yanvar-dekabr oylari yakuni bo\u2018yicha Kapital qurilish ko\u2018satkichlari",
+        "description": "2015-yilning yanvar-dekabr oylari yakuni bo\u2018yicha Kapital qurilish ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "1152",
+        "code": "146-1152",
+        "title": "2016-yil yanvar-mart yakuni bo'yicha o'rtacha aholi jon boshiga ko'rsatkichlar, ming so'm",
+        "description": "2016-yil yanvar-mart yakuni bo'yicha o'rtacha aholi jon boshiga ko'rsatkichlar, ming so'm",
+        "authority_id": "146"
+    },
+    {
+        "id": "1282",
+        "code": "624-1282",
+        "title": "Toshkent shahrining kadastr bo`yicha bo`linishi (mavze kesimida)",
+        "description": "Toshkent shahrining kadastr bo`yicha bo`linishi (mavze kesimida)",
+        "authority_id": "624"
+    },
+    {
+        "id": "1285",
+        "code": "624-1285",
+        "title": "Toshkent shahrining kadastr bo`yicha bo`linishi (massiv kesimida)",
+        "description": "Toshkent shahrining kadastr bo`yicha bo`linishi (massiv kesimida)",
+        "authority_id": "624"
+    },
+    {
+        "id": "1286",
+        "code": "624-1286",
+        "title": "Toshkent shahrining kadastr bo'yicha bo`linishi (hududlar kesimida)",
+        "description": "Toshkent shahrining kadastr bo'yicha bo`linishi (hududlar kesimida)",
+        "authority_id": "624"
+    },
+    {
+        "id": "1298",
+        "code": "624-1298",
+        "title": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar turar joy bino inshootlari kadastri \"Bir oyna\" bo`limlari",
+        "description": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar turar joy bino inshootlari kadastri \"Bir oyna\" bo`limlari",
+        "authority_id": "624"
+    },
+    {
+        "id": "1322",
+        "code": "624-1322",
+        "title": "Toshkent shahrining yer balansi (2016 yil 1 yanvar holati)",
+        "description": "Toshkent shahrining yer balansi (2016 yil 1 yanvar holati)",
+        "authority_id": "624"
+    },
+    {
+        "id": "1328",
+        "code": "624-1328",
+        "title": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar noturar joy bino inshootlari kadastri \"Bir oyna\" bo`limlari",
+        "description": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar noturar joy bino inshootlari kadastri \"Bir oyna\" bo`limlari",
+        "authority_id": "624"
+    },
+    {
+        "id": "1329",
+        "code": "624-1329",
+        "title": "Toshkent shahridagi ko`p qavatli (ko`p xonadonli) uylarning tumanlar kesimida taqsimlanishi",
+        "description": "Toshkent shahridagi ko`p qavatli (ko`p xonadonli) uylarning tumanlar kesimida taqsimlanishi",
+        "authority_id": "624"
+    },
+    {
+        "id": "1366",
+        "code": "635-1366",
+        "title": "Manzillar haqida, va uning joylashgan manzili to'g'risida ma'lumot",
+        "description": "Manzillar haqida, va uning joylashgan manzili to'g'risida ma'lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1505",
+        "code": "635-1505",
+        "title": "\u049a\u043e\u0440\u0430\u049b\u0430\u043b\u043f\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438 \u0442\u0443\u043c\u0430\u043d\u043b\u0430\u0440\u0438\u0434\u0430 \u0442\u0430\u0440\u049b\u0430\u0442\u0438\u043b\u043c\u0430\u0433\u0430\u043d(\u0437\u0430\u0445\u0438\u0440\u0430\u0434\u0430\u0433\u0438) \u0435\u0440\u043b\u0430\u0440 \u0442\u045e\u0493\u0440\u0438\u0441\u0438\u0434\u0430 \u043c\u0430\u044c\u043b\u0443\u043c\u043e\u0442",
+        "description": "\u049a\u043e\u0440\u0430\u049b\u0430\u043b\u043f\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438 \u0442\u0443\u043c\u0430\u043d\u043b\u0430\u0440\u0438\u0434\u0430 \u0442\u0430\u0440\u049b\u0430\u0442\u0438\u043b\u043c\u0430\u0433\u0430\u043d(\u0437\u0430\u0445\u0438\u0440\u0430\u0434\u0430\u0433\u0438) \u0435\u0440\u043b\u0430\u0440 \u0442\u045e\u0493\u0440\u0438\u0441\u0438\u0434\u0430 \u043c\u0430\u044c\u043b\u0443\u043c\u043e\u0442",
+        "authority_id": "635"
+    },
+    {
+        "id": "1508",
+        "code": "635-1508",
+        "title": "Andijon viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Andijon viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1509",
+        "code": "635-1509",
+        "title": "\u0413\u0415\u041e\u0413\u0420\u0410\u0424\u0418\u0427\u0415\u0421\u041a\u0410\u042f \u0421\u041f\u0420\u0410\u0412\u041a\u0410 \u041e\u0411 \u0423\u0417\u0411\u0415\u041a\u0418\u0421\u0422\u0410\u041d\u0415",
+        "description": "\u0413\u0415\u041e\u0413\u0420\u0410\u0424\u0418\u0427\u0415\u0421\u041a\u0410\u042f \u0421\u041f\u0420\u0410\u0412\u041a\u0410 \u041e\u0411 \u0423\u0417\u0411\u0415\u041a\u0418\u0421\u0422\u0410\u041d\u0415",
+        "authority_id": "635"
+    },
+    {
+        "id": "1510",
+        "code": "635-1510",
+        "title": "\"Qizil kitob\"ga kiritilgan o`simlik va ko`llar haqida ma`lumot",
+        "description": "\"Qizil kitob\"ga kiritilgan o`simlik va ko`llar haqida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1511",
+        "code": "635-1511",
+        "title": "Tuproq profili haqida ma`lumot",
+        "description": "Tuproq profili haqida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1512",
+        "code": "635-1512",
+        "title": "Yer osti suvlarini zaxirasi haqida ma`lumot",
+        "description": "Yer osti suvlarini zaxirasi haqida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1513",
+        "code": "635-1513",
+        "title": "O`zbekiston Respublikasini siyosiy-ma`muriy xaritasi ",
+        "description": "O`zbekiston Respublikasini siyosiy-ma`muriy xaritasi ",
+        "authority_id": "635"
+    },
+    {
+        "id": "1514",
+        "code": "635-1514",
+        "title": "O`zbekiston Respublikasini fizik xaritasi",
+        "description": "O`zbekiston Respublikasini fizik xaritasi",
+        "authority_id": "635"
+    },
+    {
+        "id": "1515",
+        "code": "624-1515",
+        "title": "Toshkent shahridagi mavjud mahallalar soni ",
+        "description": "Toshkent shahri tumanlari kesimida  mavjud va yangi tashkil etilgan  mahallalar soni ",
+        "authority_id": "624"
+    },
+    {
+        "id": "1520",
+        "code": "635-1520",
+        "title": "Jizzax viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot ",
+        "description": "Jizzax viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot ",
+        "authority_id": "635"
+    },
+    {
+        "id": "1525",
+        "code": "624-1525",
+        "title": "Uchtepa tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Uchtepa tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1526",
+        "code": "624-1526",
+        "title": "Bektemir tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Bektemir tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1527",
+        "code": "624-1527",
+        "title": "Chilonzor tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Chilonzor tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1559",
+        "code": "624-1559",
+        "title": "Yashnobod tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Yashnobod tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1560",
+        "code": "624-1560",
+        "title": "Yakkasaroy tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Yakkasaroy tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1561",
+        "code": "624-1561",
+        "title": "Sergeli tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Sergeli tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1562",
+        "code": "624-1562",
+        "title": "Yunusobod tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Yunusobod tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1563",
+        "code": "624-1563",
+        "title": "Olmazor tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Olmazor tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1564",
+        "code": "624-1564",
+        "title": "Mirzo Ulug`bek tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Mirzo Ulug`bek tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1565",
+        "code": "624-1565",
+        "title": "Shayxontoxur tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Shayxontoxur tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1566",
+        "code": "624-1566",
+        "title": "Mirobod tumanida joylashgan mahalla fuqarolar yig`inlari to`g`risidagi ma`lumot",
+        "description": "Mirobod tumanida joylashgan mahalla fuqarolar yig`inlarining nomi, mahalla idorasi manzili, maydoni, chegara uzunligi to`g`risidagi ma`lumotlar",
+        "authority_id": "624"
+    },
+    {
+        "id": "1570",
+        "code": "635-1570",
+        "title": "Geodeziya va Katografiya faoliyatini amalga oshirishda ruxsatnoma(litsenziya)ga ega yuridik shaxslar to`grisida ma`lumot",
+        "description": "Geodeziya va Katografiya faoliyatini amalga oshirishda ruxsatnoma(litsenziya)ga ega yuridik shaxslar to`grisida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1622",
+        "code": "635-1622",
+        "title": "Qashqadaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Qashqadaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1626",
+        "code": "635-1626",
+        "title": "Navoiy viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Navoiy viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1629",
+        "code": "635-1629",
+        "title": "Namangan viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Namangan viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1642",
+        "code": "128-1642",
+        "title": "Namunaviy uy joylar",
+        "description": "Farg`ona viloyatida 2016 yilda namunaviy loyihalar asosida qurilishi rejalashtirilayotgan uy-joylar uchun tanlangan massivlar bo'yicha ma'lumot",
+        "authority_id": "128"
+    },
+    {
+        "id": "1679",
+        "code": "128-1679",
+        "title": "Fuqorolar yig'inlari raislari  haqida ma'lumot",
+        "description": "Fuqorolar yig'inlari raislari  haqida ma'lumot",
+        "authority_id": "128"
+    },
+    {
+        "id": "1771",
+        "code": "635-1771",
+        "title": "Sirdaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Sirdaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "1817",
+        "code": "120-1817",
+        "title": "Sirdaryo viloyatida namunaviy uylar qurilishi bo'yicha ma'lumotlar",
+        "description": "Namunaviy uylar qurilishi bo'yicha ma'lumotlar",
+        "authority_id": "120"
+    },
+    {
+        "id": "1819",
+        "code": "624-1819",
+        "title": "Toshkent shahridagi mavjud 505ta mahallalarning chegara chizmalari xaritasi",
+        "description": "Xalq deputatlari Toshkent shahar kengashining 2016 yil 12 iyuldagi 124\/15-5-sonli qarorining 1- ilovasida keltirilgan Toshkent shahridagi mavjud 505ta mahallalarning chegara chizmalari xaritasi",
+        "authority_id": "624"
+    },
+    {
+        "id": "1869",
+        "code": "635-1869",
+        "title": "Surxondaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "description": "Surxondaryo viloyati shahar va tumanlarida tarqatilmagan(zaxiradagi) yerlar to`g`risida ma`lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "2176",
+        "code": "56-2176",
+        "title": "Qoraqalpog\u2019iston Respublikasida qurilayotgan namunali uylar to'g'risida ma'lumot",
+        "description": "Qoraqalpog\u2019iston Respublikasida qurilayotgan namunali uylar to'g'risida ma'lumot",
+        "authority_id": "56"
+    },
+    {
+        "id": "2193",
+        "code": "56-2193",
+        "title": "Qoraqalpog`iston Respublikasi bo`yicha xokimiyat va xomiylar tomonidan ro`yxatga olingan o`zgalar parvarishiga muxtoj yolgizlarga berilgan uy-joylari to`g`risida ma`lumot",
+        "description": "Qoraqalpog`iston Respublikasi bo`yicha xokimiyat va xomiylar tomonidan ro`yxatga olingan o`zgalar parvarishiga muxtoj yolgizlarga berilgan uy-joylari to`g`risida ma`lumot",
+        "authority_id": "56"
+    },
+    {
+        "id": "2283",
+        "code": "624-2283",
+        "title": "Toshkent shahridagi turar joy obyektlari bo`yicha ko`chmas mulkka bo`lgan huquqlarni va u haqda tuzilgan bitimlarni davlat ro`yhatidan o`tkazilganligi haqidagi ma`lumot (2016 yil 9 oyi davomida)",
+        "description": "Toshkent shahar Yer tuzish va ko`chmas mulk kadastri davlat korxonasi tomonidan 2016 yil 9 oyi davomida turar joy obyektlari bo`yicha ko`chmas mulkka bo`lgan huquqlarni va u haqda tuzilgan bitimlarni davlat ro`yhatidan o`tkazilganligi haqidagi ma`lumot\r\n",
+        "authority_id": "624"
+    },
+    {
+        "id": "2284",
+        "code": "624-2284",
+        "title": "Toshkent shahridagi noturar joy obyektlari bo`yicha ko`chmas mulkka bo`lgan huquqlarni va u haqda tuzilgan bitimlarni davlat ro`yhatidan o`tkazilganligi haqidagi ma`lumot (2016 yil 9 oyi davomida)",
+        "description": "Toshkent shahar Yer tuzish va ko`chmas mulk kadastri davlat korxonasi tomonidan 2016 yil 9 oyi davomida turar joy obyektlari bo`yicha ko`chmas mulkka bo`lgan huquqlarni va u haqda tuzilgan bitimlarni davlat ro`yhatidan o`tkazilganligi haqidagi ma`lumot",
+        "authority_id": "624"
+    },
+    {
+        "id": "2422",
+        "code": "74-2422",
+        "title": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0441\u0442\u0440\u043e\u044f\u0449\u0438\u0445\u0441\u044f \u0442\u0438\u043f\u043e\u0432\u044b\u0445 \u0434\u043e\u043c\u0430\u0445 \u0432 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+        "description": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0441\u0442\u0440\u043e\u044f\u0449\u0438\u0445\u0441\u044f \u0442\u0438\u043f\u043e\u0432\u044b\u0445 \u0434\u043e\u043c\u0430\u0445 \u0432 \u043e\u0431\u043b\u0430\u0441\u0442\u0438",
+        "authority_id": "74"
+    },
+    {
+        "id": "2653",
+        "code": "624-2653",
+        "title": "Toshkent shahar Uchtepa tumani mahalla chegaralari chizmasining tavsifi",
+        "description": "Toshkent shahar Uchtepa tumani mahalla chegaralari chizmasining tavsifi (Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova) ",
+        "authority_id": "624"
+    },
+    {
+        "id": "2655",
+        "code": "624-2655",
+        "title": "Toshkent shahar Bektemir tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Bektemir tumani mahalla chegaralari tavsifi (Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "2809",
+        "code": "136-2809",
+        "title": "Viloyatdagi namunaviy uy-joy qurilishi haqida ma\u2019lumot",
+        "description": "2015 yil va 2016 yil yanvar-sentybr oylarida viloyat bo\u2018yicha qishloq massivlarida foydalanishga topshirilgan uy-joylar",
+        "authority_id": "136"
+    },
+    {
+        "id": "2866",
+        "code": "635-2866",
+        "title": "Asosiy ko'rsatkichlar, Statistik ma'lumotlar, Investitsiya loyihalari to'g'risida ma'lumot",
+        "description": "Asosiy ko'rsatkichlar, Statistik ma'lumotlar, Investitsiya loyihalari to'g'risida ma'lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "2944",
+        "code": "635-2944",
+        "title": "\u041c\u0430\u0432\u0436\u0443\u0434 \u0431\u045e\u0448 \u0438\u0448 \u045e\u0440\u0438\u043d\u043b\u0430\u0440\u0438 \u04b3\u0430\u049b\u0438\u0434\u0430 \u043c\u0430\u044a\u043b\u0443\u043c\u043e\u0442",
+        "description": "\u041c\u0430\u0432\u0436\u0443\u0434 \u0431\u045e\u0448 \u0438\u0448 \u045e\u0440\u0438\u043d\u043b\u0430\u0440\u0438 \u04b3\u0430\u049b\u0438\u0434\u0430 \u043c\u0430\u044a\u043b\u0443\u043c\u043e\u0442",
+        "authority_id": "635"
+    },
+    {
+        "id": "3063",
+        "code": "624-3063",
+        "title": "Toshkent shahar Yer resurslari va davlat kadastri boshqarmasi rahbariyati qabul kunlari",
+        "description": "Toshkent shahar Yer resurslari va davlat kadastri boshqarmasi rahbariyatining qabul kunlari to`g`risidagi ma`lumot",
+        "authority_id": "624"
+    },
+    {
+        "id": "3088",
+        "code": "120-3088",
+        "title": "Sirdaryo viloyatida neft mahsulotlarini (AYQSH) va moy almashtirish punktlari orqali sotish faoliyati bilan shug'ullanuvchi xo'jalik yurituvchi subyektlar ro'yxati",
+        "description": "Sirdaryo viloyatida neft mahsulotlarini (AYQSH) va moy almashtirish punktlari orqali sotish faoliyati bilan shug'ullanuvchi xo'jalik yurituvchi subyektlar ro'yxati",
+        "authority_id": "120"
+    },
+    {
+        "id": "3202",
+        "code": "64-3202",
+        "title": "Andijon viloyatida 2017 yilgi namunaviy uy joylarni qurilishi xaqida malumot",
+        "description": "Andijon viloyatida 2017 yilgi namunaviy uy joylarni qurilishi xaqida malumot",
+        "authority_id": "64"
+    },
+    {
+        "id": "3318",
+        "code": "635-3318",
+        "title": "Rahbariyatning aloqa ma'lumotlari, va \"Yergeodezkadastr\" davlat qo'mitasining qabul soatlari",
+        "description": "Rahbariyatning aloqa ma'lumotlari, va \"Yergeodezkadastr\" davlat qo'mitasining qabul soatlari",
+        "authority_id": "635"
+    },
+    {
+        "id": "3328",
+        "code": "624-3328",
+        "title": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar turar joy bino inshootlari kadastri bo`limlari",
+        "description": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar turar joy bino inshootlari kadastri bo`limlari ma`lumotlari",
+        "authority_id": "624"
+    },
+    {
+        "id": "3329",
+        "code": "624-3329",
+        "title": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar noturar joy bino inshootlari kadastri bo`limlari",
+        "description": "\"Toshkent shahar Yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tumanlar noturar joy bino inshootlari kadastri bo`limlari ma`lumotlari",
+        "authority_id": "624"
+    },
+    {
+        "id": "3344",
+        "code": "624-3344",
+        "title": "Toshkent shaxrida yer uchastkalaridan foydalanganlik uchun yer solig`i miqdori",
+        "description": "Toshkent shaxrida yuridik va jismoniy shaxslarning yer uchastkalaridan foydalanganlik uchun yer solig`i miqdori",
+        "authority_id": "624"
+    },
+    {
+        "id": "3345",
+        "code": "624-3345",
+        "title": "Toshkent shahar Yer resurslari va davlat kadastri va hududiy bo`limlarida jismoniy va yuridik shaxslarni qabul qilish kunlari haqida ma`lumot",
+        "description": "Toshkent shahar Yer resurslari va davlat kadastri va hududiy bo`limlarida jismoniy va yuridik shaxslarni qabul qilish kunlari haqida ma`lumot",
+        "authority_id": "624"
+    },
+    {
+        "id": "3550",
+        "code": "120-3550",
+        "title": "Sirdaryo viloyatidagi namunaviy loyihalar asosida qurilgan uy-joylar to'g'risida ma'lumot",
+        "description": "Sirdaryo viloyatidagi namunaviy loyihalar asosida qurilgan uy-joylar to'g'risida ma'lumot",
+        "authority_id": "120"
+    },
+    {
+        "id": "3670",
+        "code": "136-3670",
+        "title": "Viloyatdagi namunaviy uy-joy qurilishi haqida ma\u2019lumot",
+        "description": "Viloyatdagi namunaviy uy-joy qurilishi haqida ma\u2019lumot",
+        "authority_id": "136"
+    },
+    {
+        "id": "3785",
+        "code": "115-3785",
+        "title": "2017 yil Davlat dasturiga muvofiq Namangan viloyatida qishloq joylarda namunaviy uy-joylarning qurilish ishlari to\u2019g\u2019risida ma\u2019lumot",
+        "description": "2017 yil Davlat dasturiga muvofiq Namangan viloyatida qishloq joylarda namunaviy uy-joylarning qurilish ishlari to\u2019g\u2019risida ma\u2019lumot",
+        "authority_id": "115"
+    },
+    {
+        "id": "3970",
+        "code": "635-3970",
+        "title": "Litsenziyalar va ruxsat etuvchi hujjatlar reestri",
+        "description": "Litsenziyalar va ruxsat etuvchi hujjatlar reestri",
+        "authority_id": "635"
+    },
+    {
+        "id": "4005",
+        "code": "624-4005",
+        "title": "Toshkent shahar Chilonzor tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Chilonzor tumani mahalla chegaralari chizmasining tavsifi (Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4006",
+        "code": "624-4006",
+        "title": "Toshkent shahar Yashnobod tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Yashnobod tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4007",
+        "code": "624-4007",
+        "title": "Toshkent shahar Yakkasaroy tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Yakkasaroy tumani mahalla chegaralari tavsifi\r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4008",
+        "code": "624-4008",
+        "title": "Toshkent shahar Sergeli tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Sergeli tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4009",
+        "code": "624-4009",
+        "title": "Toshkent shahar Yunusobod tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Yunusobod tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4010",
+        "code": "624-4010",
+        "title": "Toshkent shahar Olmazor tumani mahalla chegaralari tavsifi ",
+        "description": "Toshkent shahar Olmazor tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4011",
+        "code": "624-4011",
+        "title": "Toshkent shahar Mirzo Ulug`bek tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Mirzo Ulug`bek tumani mahalla chegaralari tavsifi (Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4012",
+        "code": "624-4012",
+        "title": "Toshkent shahar Shayhontoxur tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Shayhontoxur tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4014",
+        "code": "624-4014",
+        "title": "Toshkent shahar Mirobod tumani mahalla chegaralari tavsifi",
+        "description": "Toshkent shahar Mirobod tumani mahalla chegaralari tavsifi \r\n(Toshkent shahar Hokimining 2016 yil 12 iyuldagi 124\/15-5-sonli qaroriga 2-ilova)",
+        "authority_id": "624"
+    },
+    {
+        "id": "4193",
+        "code": "119-4193",
+        "title": "Viloyatda qurilayotgan arzon uy-joylar haqida axborot",
+        "description": "Viloyatda qurilayotgan arzon uy-joylar haqida axborot",
+        "authority_id": "119"
+    },
+    {
+        "id": "4195",
+        "code": "139-4195",
+        "title": "Yakka tartibdagi uy-joy qurilishidagi quruchilari ro\u2018yhati",
+        "description": "Yakka tartibdagi uy-joy qurilishidagi quruchilari ro\u2018yhati",
+        "authority_id": "139"
+    },
+    {
+        "id": "4196",
+        "code": "635-4196",
+        "title": " Yergeodezkadastr davlat qo\u2018mitasi tizimidagi korxona va tashkilotlar. Ularning manzili va bog\u2018lanish telefonlari",
+        "description": "Yergeodezkadastr davlat qo\u2018mitasi tizimidagi korxona va tashkilotlar. Ularning manzili va bog\u2018lanish telefonlari",
+        "authority_id": "635"
+    },
+    {
+        "id": "4244",
+        "code": "119-4244",
+        "title": "Surxondaryo viloyatida qurilayatgan namunaviy uy-joylar haqida ",
+        "description": "Surxondaryo viloyatida qurilayatgan namunaviy uy-joylar haqida ",
+        "authority_id": "119"
+    },
+    {
+        "id": "4322",
+        "code": "120-4322",
+        "title": "2017-yil Sirdaryo viloyatida na'munali loyiha asosida qurilayotgan uylar to'g'risida ma'lumotlar",
+        "description": "2017-yil Sirdaryo viloyatida na'munali loyiha asosida qurilayotgan uylar to'g'risida ma'lumotlar",
+        "authority_id": "120"
+    },
+    {
+        "id": "4338",
+        "code": "120-4338",
+        "title": "Sirdaryo viloyatida yolg'iz nafaqaxo'r, nogiron va yordamga muhtoj aholi uchun ajratilgan uylar to'g'risida ma'lumotlar (yillik)",
+        "description": "Yolg'iz nafaqaxo'r, nogiron va yordamga muhtoj aholi uchun ajratilgan uylar to'g'risida ma'lumotlar (yillik)",
+        "authority_id": "120"
+    },
+    {
+        "id": "4445",
+        "code": "146-4445",
+        "title": "Toshkent viloyatida 2017-yilning yanvar-iyun oylari yakuni bo\u2018yicha Kapital qo\u2018yilmalar ko\u2018satkichlari",
+        "description": "Toshkent viloyatida 2017-yilning yanvar-iyun oylari yakuni bo\u2018yicha Kapital qo\u2018yilmalar ko\u2018satkichlari",
+        "authority_id": "146"
+    },
+    {
+        "id": "4527",
+        "code": "624-4527",
+        "title": "Kadastr hujjatlarini texnik inventarizatsiyadan o`tkazish va rasmiylashtirish bo`yicha davlat xizmatlari narxlarini belgilash tartibi",
+        "description": "O`zbekiston Respublikasi Vazirlar Mahkamasining 2014 yil 10 iyuldagi 186-sonli qaroriga ilova \"Kadastr hujjatlarini texnik inventarizatsiyadan o`tkazish va rasmiylashtirish bo`yicha davlat xizmatlari narxlarini belgilash tartibi\"",
+        "authority_id": "624"
+    },
+    {
+        "id": "4535",
+        "code": "100-4535",
+        "title": "7.\u0420\u0443\u0445\u0441\u0430\u0442 \u044d\u0442\u0438\u0448 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0434\u0430\u0433\u0438 \u0431\u0435\u0440\u0438\u043b\u0433\u0430\u043d \u04b3\u0443\u0436\u0436\u0430\u0442\u043b\u0430\u0440 \u0440\u0435\u0435\u0441\u0442\u0440\u0438 12.09.2017",
+        "description": "\u0420\u0443\u0445\u0441\u0430\u0442 \u044d\u0442\u0438\u0448 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0434\u0430\u0433\u0438 \u0431\u0435\u0440\u0438\u043b\u0433\u0430\u043d \u04b3\u0443\u0436\u0436\u0430\u0442\u043b\u0430\u0440 \u0440\u0435\u0435\u0441\u0442\u0440\u0438",
+        "authority_id": "100"
+    },
+    {
+        "id": "4540",
+        "code": "100-4540",
+        "title": "11.\u041c\u0430\u04b3\u0430\u043b\u043b\u0438\u0439 \u0431\u044e\u0434\u0436\u0435\u0442\u0433\u0430 \u0442\u045e\u043b\u0430\u043d\u0430\u0434\u0438\u0433\u0430\u043d \u043c\u0430\u04b3\u0430\u043b\u043b\u0438\u0439 \u0441\u043e\u043b\u0438\u049b \u0432\u0430 \u0431\u043e\u0448\u049b\u0430 \u0442\u0443\u0440\u0434\u0430\u0433\u0438 \u043c\u0430\u0436\u0431\u0443\u0440\u0438\u0439 \u0442\u045e\u043b\u043e\u0432\u043b\u0430\u0440 12.09.2017",
+        "description": "\u041c\u0430\u04b3\u0430\u043b\u043b\u0438\u0439 \u0431\u044e\u0434\u0436\u0435\u0442\u0433\u0430 \u0442\u045e\u043b\u0430\u043d\u0430\u0434\u0438\u0433\u0430\u043d \u043c\u0430\u04b3\u0430\u043b\u043b\u0438\u0439 \u0441\u043e\u043b\u0438\u049b \u0432\u0430 \u0431\u043e\u0448\u049b\u0430 \u0442\u0443\u0440\u0434\u0430\u0433\u0438 \u043c\u0430\u0436\u0431\u0443\u0440\u0438\u0439 \u0442\u045e\u043b\u043e\u0432\u043b\u0430\u0440",
+        "authority_id": "100"
+    },
+    {
+        "id": "4691",
+        "code": "635-4691",
+        "title": "Bo'ysunuvchi tashkilotlar ro'yxati, ularning manzillari va boshqa aloqa ma'lumotlari to'g'risida ma'lumot",
+        "description": "\"GEOINFORMKADASTR\" DAVLAT UNITAR KORXONASI\r\n\"Geoinformkadastr\" davlat unitar korxonasi direktori\r\nMayinov Shuxrat Kuchkarovich\r\n\u0422elefon: 0(371) 278-03-43;               Faks: 0(371) 273-70-21\r\nElektron manzil: geoinform@inbox.uz\r\nManzil: Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Cho'ponota ko'chasi.\r\n\r\n\"KOMPYUTER VA GEOAXBOROT TEXNOLOGIYALARINI RIVOJLANTIRISH VA JORIY ETISH MARKAZI\" DUK\r\n\"Kompyuter va geoaxborot texnologiyalarini rivojlantirish va joriy etish markazi\" davlat unitar korxonasi direktori\r\nIbragimov Farhad Zairovich\r\nTelefon: 0(371)  278-83-11, (998)95-195-01-41;     Faks: 0(371) 278-83-11\r\nElektron manzil:  iktduk@umail.uz.\r\nManzil: Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Cho'ponota ko'chasi.\r\n\r\n\"YERGEODEZKADASTR\" DAVLAT QO'MITASI AXBOROTNOMASI DUK ILMIY-AMALIY JURNALI TAXRIRIYATI\r\n\"Axborotnoma\" DUK bosh muharriri v.v.b\r\nJumagaldiyev Usmanbay Ro\u2018zimmatovich\r\nTelefon: 0 (371) 278-97-69;             Faks: 0(371) 278-97-69\r\nElektron pochta: u.jumagaldiyev@ygk.uz\r\nManzil: Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Cho'ponota ko'chasi.\r\n\r\nDAVLAT GEODEZIYA NAZORATI INSPEKSIYASI\r\nDavlat geodeziya nazorati inspeksiyasi rahbari \r\nFayzullayev Kamoliddin Saidovich\r\nTelefon: 0 (371) 234-02-85;               Faks: 0 (371) 234-02-85\r\nElektron pochta: geodeziya@inbox.uz\r\nManzil: 100000, Toshkent shahar, Yunusobod tumani, Xalqobod ko`chasi, 8-uy.\r\n\r\nDAVLAT KARTOGRAFIYA-GEODEZIYA FONDI\r\nDavlat kartografiya-geodeziya fondi rahbari\r\nKenjaboyev Murodil Nabijonovich\r\nTelefon: 0(371) 246-77-32;               Faks: 0(371) 246-77-32\r\nElektron pochta: kenjaboev@umail.uz\r\nManzil: Toshkent shahar, Shayxontohur tumani, Eshon Boboxon ko`chasi, 67A uy\r\n\r\nGEODEZIYA VA KARTOGRAFIYA MILLIY MARKAZI\r\nGeodeziya va kartografiya milliy markazi raxbari\r\nErgeshov Ixtiyar Mahkambaevich\r\nTelefon: 0(371) 276-36-96;               Faks: 0(371) 276-12-94\r\nElektron pochta: i.ergeshov@gkmm.uz\r\nManzil: 100097,Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Bunyodkor shoh ko\u2018chasi, 28 uy.\r\n\r\nUZDAVYERLOYIHA\r\n\u201cO'zbek davlat yer tuzish ilmiy-loyihalash instituti \u201cO\u2019ZDAVYERLOYIHA\u201d rahbari\r\n\u041emonov \u0410kmaljon Solijonovich\r\nTelefon: 0(371) 277-03-20;              Faks: 0(371) 277-03-20\r\nManzil: Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Cho'ponota ko'chasi.\r\n\r\n\u00abKARTOGRAFIYA\u00bb ILMIY ISHLAB CHIQARISH DAVLAT KORXONASI\r\n\u00abKartografiya\u00bb ilmiy-ishlab chiqarish  davlat korxonasi bosh direktor\r\nIbragimova Saniya Shamuratovna\r\nTelefon: 0(371) 262-59-07;                          Faks: 0(371) 262-57-31  \r\nElektron pochta: uzkarta@gmail.ru\r\nManzil: 100170, Toshkent shahar, Ziyolilar ko\u2018chasi, 6 uy.\r\n\r\n\u00abMARKAZIY AEROGEODEZIYA\u00bb DAVLAT UNITAR KORXONASI\r\n\u00abMarkaziy Aerogeodeziya\u00bb davlat unitar korxonasi rahbari\r\nBekbaev Gulam Karimovich \r\nTelefon: 0(371) 234-10-00                Faks: 0(371) 234-10-00\r\nElektron manzil: uz. magk@umail.uz\r\nManzil: 100000, Toshkent shahar, Yunusobod tumani, Xalqobod ko'chasi, 8 uy.\r\n\r\n\u201cSAMARQAND AEROGEODEZIYA\u201d DAVLAT UNITARY KORXONASI\r\n\u201cSamarqand aerogeodeziya\u201d davlat unitary korxonasi rahbari  \r\nIsroilov Maqsudjon Ergashevich \r\nTelefon: 0(366) 237-15-13;               Faks: 0(366) 237-08-75.\r\nElektron pochta: samagk@umail.uz\r\nManzil: 140108, Samarqand shahar, Ra\u2019no Uzoqova ko\u2018chasi, 12 uy.\r\n\r\n\u201cTUPROQ BONITIROVKASI\u201d SHO\u2018BA KORXONASI\r\n\u201cTuproq bonitirovkasi\u201d sho\u2018ba korxonasi raxbari \r\nJabborov Odil Abdimalikovich\r\n\u0422elefon: 0(371) 273-06-76,               Faks: 0(371) 278-50-99\r\nElektron manzil: bonitirovka@umail.uz\r\nManzil: 100097, Toshkent shahar, Chilonzor tumani, Chilonzor S mavzesi, Cho\u2018ponota ko\u2018chasi.",
+        "authority_id": "635"
+    },
+    {
+        "id": "4692",
+        "code": "635-4692",
+        "title": "Manzillar haqida, va uning joylashgan manzili to'g'risida ma'lumot",
+        "description": "Manzil: Toshkent, 100097, Chilonzor S, Cho\u00b4ponota ko\u2019chasi. \r\nTel: (998 71) 277-98-07\r\nFaks: (998 71) 273-70-05\r\nWeb sahifa: www.ygk.uz\r\nE-mail: info@ygk.uz\r\nIsh vaqti: 9:00 dan 18:00 gacha\r\nTushlik:13:00 dan 14:00 gacha\r\nDam olish kuni: Shanba, yakshanba.\r\nTransportlar: Metro bekati: Mirzo Ulugbek,   Avtobuslar: 2, 33, 84, 94, 98, 150.\r\nMo\u2019ljal: Oliy xo\u2019jalik sudi, Toshkent viloyat prokuraturasi, Toshkent davlat musiqali komediya teatri (Operetti).",
+        "authority_id": "635"
+    },
+    {
+        "id": "4760",
+        "code": "624-4760",
+        "title": "\u041f\u043e\u0440\u044f\u0434\u043e\u043a \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u0443\u0433 \u043f\u043e \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0435 \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0434\u0435\u043b\u0430 \u0438 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044e \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u043e\u0432\u043e\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438 \u043d\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u044b \u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0433\u043e \u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430",
+        "description": "\u041f\u041e\u0420\u042f\u0414\u041e\u041a\r\n\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u0443\u0433 \u043f\u043e \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0435\r\n\u043a\u0430\u0434\u0430\u0441\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0434\u0435\u043b\u0430 \u0438 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044e \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u043e\u0432\u043e\u0439 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438 \u043d\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u044b\r\n\u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0433\u043e \u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430\r\n(\u041f\u043e \u041f\u041a\u041c 186 \u043e\u0442 10 \u0438\u044e\u043b\u044f 2014 \u0433.)\r\n",
+        "authority_id": "624"
+    },
+    {
+        "id": "4763",
+        "code": "624-4763",
+        "title": "Toshkent shahar \"Yermulkkadastr\" DK tuman filiallarining geolokatsion ma`lumotlari",
+        "description": "Toshkent shahar \"Yermulkkadastr\" DK tuman filiallarining geolokatsion ma`lumotlari bo`yicha filial joylashuvini aniqlash",
+        "authority_id": "624"
+    },
+    {
+        "id": "4781",
+        "code": "120-4781",
+        "title": "Viloyatda namunali loyiha asosida qurilayotgan uylar to'g'risida ma'lumot",
+        "description": "Namunali loyiha asosida qurilayotgan uylar to'g'risida ma'lumot",
+        "authority_id": "120"
+    },
+    {
+        "id": "4805",
+        "code": "624-4805",
+        "title": "\"Toshkent shahar yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tuman filiallari",
+        "description": "\"Toshkent shahar yer tuzish va ko`chmas mulk kadastri\" davlat korxonasining tuman filiallari ma`lumotlari",
+        "authority_id": "624"
+    },
+    {
+        "id": "4857",
+        "code": "635-4857",
+        "title": "Davyergeodezkadastr qo'mitasining hududiy boshqarmalari, quyi tashkilotlari ro'yxati, ularning manzillari va boshqa aloqa ma'lumotlari to'g'risida ma'lumot",
+        "description": "Davyergeodezkadastr qo'mitasining hududiy boshqarmalari, quyi tashkilotlari ro'yxati, ularning manzillari va boshqa aloqa ma'lumotlari to'g'risida ma'lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "5470",
+        "code": "64-5470",
+        "title": "\u0412\u0438\u043b\u043e\u044f\u0442\u0434\u0430 \u049b\u0443\u0440\u0438\u043b\u0430\u0451\u0442\u0433\u0430\u043d \u043d\u0430\u043c\u0443\u043d\u0430\u0432\u0438\u0439 \u0443\u0439-\u0436\u043e\u0439\u043b\u0430\u0440 \u0445\u0430\u049b\u0438\u0434\u0430 \u0430\u0445\u0431\u043e\u0440\u043e\u0442",
+        "description": "\u0412\u0438\u043b\u043e\u044f\u0442\u0434\u0430 \u049b\u0443\u0440\u0438\u043b\u0430\u0451\u0442\u0433\u0430\u043d \u043d\u0430\u043c\u0443\u043d\u0430\u0432\u0438\u0439 \u0443\u0439-\u0436\u043e\u0439\u043b\u0430\u0440 \u0445\u0430\u049b\u0438\u0434\u0430 \u0430\u0445\u0431\u043e\u0440\u043e\u0442",
+        "authority_id": "64"
+    },
+    {
+        "id": "5606",
+        "code": "622-5606",
+        "title": " 2018 yilning yanvar-mart davrda yangi qurilish va rekonstruksiya qilish hisobiga foydalanishga topshirilgan turar-joy va ijtimoiy soha obektlari",
+        "description": " 2018 yilning yanvar-mart davrda yangi qurilish va rekonstruksiya qilish hisobiga foydalanishga topshirilgan turar-joy va ijtimoiy soha obektlari",
+        "authority_id": "622"
+    },
+    {
+        "id": "5650",
+        "code": "74-5650",
+        "title": "Qurilish",
+        "description": "Qurilish",
+        "authority_id": "74"
+    },
+    {
+        "id": "5787",
+        "code": "56-5787",
+        "title": "2018 yil 1 aprel holatiga Qoraqalpog`iston Respublikasidagi korxona va tashkilotlar soni (fermer va dehqon xo'jaliklarisiz)",
+        "description": "2018 yil 1 aprel holatiga Qoraqalpog`iston Respublikasidagi korxona va tashkilotlar soni (fermer va dehqon xo'jaliklarisiz)",
+        "authority_id": "56"
+    },
+    {
+        "id": "6058",
+        "code": "56-6058",
+        "title": "2018 yil 1 iyun holatiga Qoraqalpog`iston Respublikasidagi korxona va tashkilotlar soni (fermer va dehqon xo'jaliklarisiz, birlik)",
+        "description": "2018 yil 1 iyun holatiga Qoraqalpog`iston Respublikasidagi korxona va tashkilotlar soni (fermer va dehqon xo'jaliklarisiz, birlik)",
+        "authority_id": "56"
+    },
+    {
+        "id": "6533",
+        "code": "622-6533",
+        "title": " 2018 yilning yanvar-sentyabr davrda yangi qurilish va rekonstruksiya qilish hisobiga foydalanishga topshirilgan turar-joy va ijtimoiy soha obektlari",
+        "description": " 2018 yilning yanvar-sentyabr davrda yangi qurilish va rekonstruksiya qilish hisobiga foydalanishga topshirilgan turar-joy va ijtimoiy soha obektlari",
+        "authority_id": "622"
+    },
+    {
+        "id": "6704",
+        "code": "635-6704",
+        "title": "\u0415\u0440 \u0443\u0447\u0430\u0441\u0442\u043a\u0430\u043b\u0430\u0440\u0438\u0433\u0430, \u0431\u0438\u043d\u043e \u0432\u0430 \u0438\u043d\u0448\u043e\u043e\u0442\u043b\u0430\u0440\u0433\u0430 \u0431\u045e\u043b\u0433\u0430\u043d \u04b3\u0443\u049b\u0443\u049b\u043b\u0430\u0440 \u04b3\u0430\u043c\u0434\u0430  \u0443\u043b\u0430\u0440 \u0431\u0438\u043b\u0430\u043d \u0431\u043e\u0493\u043b\u0438\u049b \u0431\u0438\u0442\u0438\u043c\u043b\u0430\u0440\u043d\u0438 \u0434\u0430\u0432\u043b\u0430\u0442 \u0440\u045e\u0439\u0445\u0430\u0442\u0438\u0434\u0430\u043d \u045e\u0442\u043a\u0430\u0437\u0438\u0448 \u0432\u0430 \u043c\u0430\u044a\u043b\u0443\u043c\u043e\u0442\u043d\u043e\u043c\u0430\u043b\u0430\u0440",
+        "description": "\u0415\u0440 \u0443\u0447\u0430\u0441\u0442\u043a\u0430\u043b\u0430\u0440\u0438\u0433\u0430, \u0431\u0438\u043d\u043e \u0432\u0430 \u0438\u043d\u0448\u043e\u043e\u0442\u043b\u0430\u0440\u0433\u0430 \u0431\u045e\u043b\u0433\u0430\u043d \u04b3\u0443\u049b\u0443\u049b\u043b\u0430\u0440 \u04b3\u0430\u043c\u0434\u0430  \u0443\u043b\u0430\u0440 \u0431\u0438\u043b\u0430\u043d \u0431\u043e\u0493\u043b\u0438\u049b \u0431\u0438\u0442\u0438\u043c\u043b\u0430\u0440\u043d\u0438 \u0434\u0430\u0432\u043b\u0430\u0442 \u0440\u045e\u0439\u0445\u0430\u0442\u0438\u0434\u0430\u043d \u045e\u0442\u043a\u0430\u0437\u0438\u0448 \u0432\u0430 \u043c\u0430\u044a\u043b\u0443\u043c\u043e\u0442\u043d\u043e\u043c\u0430\u043b\u0430\u0440",
+        "authority_id": "635"
+    },
+    {
+        "id": "6705",
+        "code": "635-6705",
+        "title": "\u0414\u0430\u0432\u043b\u0430\u0442 \u0435\u0440 \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u0438, \u0431\u0438\u043d\u043e \u0432\u0430 \u0438\u043d\u0448\u043e\u043e\u0442\u043b\u0430\u0440 \u0434\u0430\u0432\u043b\u0430\u0442 \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u0438 \u044e\u0440\u0438\u0442\u0438\u0448 \u0432\u0430 \u043a\u0430\u0434\u0430\u0441\u0442\u0440 \u0445\u0443\u0436\u0436\u0430\u0442\u043b\u0430\u0440\u0438\u043d\u0438 \u0440\u0430\u0441\u043c\u0438\u0439\u043b\u0430\u0448\u0442\u0438\u0440\u0438\u0448 (2018 \u0439\u0438\u043b \u044f\u043a\u0443\u043d\u0438) ",
+        "description": "\u0414\u0430\u0432\u043b\u0430\u0442 \u0435\u0440 \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u0438, \u0431\u0438\u043d\u043e \u0432\u0430 \u0438\u043d\u0448\u043e\u043e\u0442\u043b\u0430\u0440 \u0434\u0430\u0432\u043b\u0430\u0442 \u043a\u0430\u0434\u0430\u0441\u0442\u0440\u0438 \u044e\u0440\u0438\u0442\u0438\u0448 \u0432\u0430 \u043a\u0430\u0434\u0430\u0441\u0442\u0440 \u0445\u0443\u0436\u0436\u0430\u0442\u043b\u0430\u0440\u0438\u043d\u0438 \u0440\u0430\u0441\u043c\u0438\u0439\u043b\u0430\u0448\u0442\u0438\u0440\u0438\u0448 (2018 \u0439\u0438\u043b \u044f\u043a\u0443\u043d\u0438) ",
+        "authority_id": "635"
+    },
+    {
+        "id": "7549",
+        "code": "137-7549",
+        "title": "test",
+        "description": "test",
+        "authority_id": "137"
+    },
+    {
+        "id": "7919",
+        "code": "146-7919",
+        "title": "Toshkent viloyatida 2019-yil 2-chorak yakunlari bo'yicha namunaviy uy-joylar qurilishi to'g'risida ma'lumot",
+        "description": "Toshkent viloyatida 2019-yil 2-chorak yakunlari bo'yicha namunaviy uy-joylar qurilishi to'g'risida ma'lumot\r\n",
+        "authority_id": "146"
+    },
+    {
+        "id": "7973",
+        "code": "74-7973",
+        "title": "Malumot",
+        "description": "Malumot",
+        "authority_id": "74"
+    },
+    {
+        "id": "9295",
+        "code": "28-9295",
+        "title": "Qurilish ishlari (mlrd. so'm)",
+        "description": "Qurilish ishlari (mlrd. so'm)",
+        "authority_id": "28"
+    },
+    {
+        "id": "9403",
+        "code": "635-9403",
+        "title": "Rahbariyatning qabul kunlari va aloqa ma'lumotlari",
+        "description": "test",
+        "authority_id": "635"
+    },
+    {
+        "id": "9428",
+        "code": "635-9428",
+        "title": "Mavjud vakant ish joylari haqida ma'lumot",
+        "description": "\u0442\u0435\u0441\u0442",
+        "authority_id": "635"
+    },
+    {
+        "id": "9542",
+        "code": "635-9542",
+        "title": "O\u2019zbekiston Respublikasi yer resurslari, geodeziya, kartografiya va davlat kadastri davlat qo\u2019mitasi joylashuvi geolokatsiyasi",
+        "description": "O\u2019zbekiston Respublikasi yer resurslari, geodeziya, kartografiya va davlat kadastri davlat qo\u2019mitasi joylashuvi geolokatsiyasi(1) TEST",
+        "authority_id": "635"
+    },
+    {
+        "id": "9597",
+        "code": "635-9597",
+        "title": "O'zbekiston Respublikasi sug'oriladigan qishloq xo'jaligi yerlari tuproqlarining sifat baxosi to'g'risidagi ma'lumotlari.",
+        "description": "O'zbekiston Respublikasi sug'oriladigan qishloq xo'jaligi yerlari tuproqlarining sifat baxosi ma'lumotlari.",
+        "authority_id": "635"
+    },
+    {
+        "id": "9598",
+        "code": "635-9598",
+        "title": "Davyergeodezkadastr qo'mitasining hududiy boshqarmalari, quyi tashkilotlari ro'yxati, ularning manzillari va boshqa aloqa ma'lumotlari to'g'risida ma'lumot",
+        "description": "Davyergeodezkadastr qo'mitasining hududiy boshqarmalari, quyi tashkilotlari ro'yxati, ularning manzillari va boshqa aloqa ma'lumotlari to'g'risida ma'lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "9599",
+        "code": "635-9599",
+        "title": "Fuqarolarning murojaatlarini ko'rib chiqish natijalari va murojaat kanallari bo'yicha ma'lumot",
+        "description": "Fuqarolarning murojaatlarini ko'rib chiqish natijalari va murojaat kanallari bo'yicha ma'lumot",
+        "authority_id": "635"
+    },
+    {
+        "id": "9664",
+        "code": "56-9664",
+        "title": "\u049a\u043e\u0440\u0430\u049b\u0430\u043b\u043f\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438\u0434\u0430 2019 \u0439\u0438\u043b \u044f\u043d\u0432\u0430\u0440\u044c-\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c \u043e\u0439\u043b\u0430\u0440\u0438\u0434\u0430 \u0448\u0430\u04b3\u0430\u0440 \u0432\u0430 \u0442\u0443\u043c\u0430\u043d\u043b\u0430\u0440 \u0431\u045e\u0439\u0438\u0447\u0430 \u049b\u0443\u0440\u0438\u043b\u0438\u0448 \u0438\u0448\u043b\u0430\u0440\u0438 \u04b3\u0430\u0436\u043c\u0438",
+        "description": "\u049a\u043e\u0440\u0430\u049b\u0430\u043b\u043f\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438\u0434\u0430 2019 \u0439\u0438\u043b \u044f\u043d\u0432\u0430\u0440\u044c-\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c \u043e\u0439\u043b\u0430\u0440\u0438\u0434\u0430 \u0448\u0430\u04b3\u0430\u0440 \u0432\u0430 \u0442\u0443\u043c\u0430\u043d\u043b\u0430\u0440 \u0431\u045e\u0439\u0438\u0447\u0430  \u049b\u0443\u0440\u0438\u043b\u0438\u0448 \u0438\u0448\u043b\u0430\u0440\u0438 \u04b3\u0430\u0436\u043c\u0438",
+        "authority_id": "56"
+    }
+]
