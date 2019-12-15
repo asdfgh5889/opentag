@@ -2,6 +2,8 @@ import json
 import requests
 import nltk
 import hashlib
+import goslate
+import concurrent.futures
 from googletrans import Translator
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
@@ -42,13 +44,16 @@ def getSampleTitles(dataset):
     return titles
 
 def writeTranslated(titles, filename):
-    translate = Translator()
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=200)
+    gs = goslate.Goslate(executor=executor)
+    # translate = Translator()
     translated_file = open(filename, 'w')
     print('Translating')
-    print(titles)
-    translated = translate.translate(titles, src='uz')
+    # translated = translate.translate(titles, src='uz')
+    translated = gs.translate(titles, 'en')
     print('Done translating')
-    translated_file.write(json.dumps(list(map(lambda x: x.text, translated))))
+    # translated_file.write(json.dumps(list(map(lambda x: x.text, translated))))
+    translated_file.write(json.dumps(list(translated)))
     print('Done')
     translated_file.close()
 
@@ -73,19 +78,22 @@ def interSearchTag(keys, tags, titles):
 def translateTags(tags):
     uzb_tags_list = []
     uzb_tags_val = []
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=200)
+    gs = goslate.Goslate(executor=executor)
     for k, v in tags.items():
         uzb_tags_list.append(k)
         uzb_tags_val.append(v)
 
     print("Translating back")
-    t = Translator()
-    uzb_tags_tra = t.translate(uzb_tags_list, dest='uz')
-    uzb_tags_list = list(map(lambda x: x.text, uzb_tags_tra))
+    # t = Translator()
+    # uzb_tags_tra = t.translate(uzb_tags_list, dest='uz')
+    # uzb_tags_list = list(map(lambda x: x.text, uzb_tags_tra))
+    uzb_tags_list = gs.translate(uzb_tags_list, 'uz')
     print("Done")
 
     uzb_tags = {}
 
-    for i, t in enumerate(uzb_tags_list):
+    for i, t in enumerate(list(uzb_tags_list)):
         uzb_tags[t] = uzb_tags_val[i]
     return uzb_tags
 
@@ -162,6 +170,6 @@ def init(URL):
     writeUzbTags(uzb_tags, filename_uzb_tags)
     print(getUzbTags(filename_uzb_tags))
 
-init("https://data.gov.uz/ru/api/v1/json/sphere/1/dataset?access_key=f9f3d29f4fadb05e1d4efc0828a351c7")
+init("https://data.gov.uz/ru/api/v1/json/sphere/5/dataset?access_key=f9f3d29f4fadb05e1d4efc0828a351c7")
 
 
