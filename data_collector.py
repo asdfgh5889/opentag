@@ -4,6 +4,7 @@ import requests
 from googletrans import Translator
 from flask import Flask
 from flask import render_template
+from flask import request
 
 def getTranlatedTitles():
     raw_data = open('translated.json', 'r')
@@ -25,7 +26,7 @@ def getSampleTitles(dataset):
         titles.append(d['title'])
     return titles
 
-def unionSearchTag(keys, tags, titles):
+def unionSearchTag(keys, tags):
     key_indexes = set()
     result = []
     for k in keys:
@@ -33,7 +34,7 @@ def unionSearchTag(keys, tags, titles):
             key_indexes.add(v)
     return key_indexes
 
-def interSearchTag(keys, tags, titles):
+def interSearchTag(keys, tags):
     if len(keys) == 0:
         return []
     
@@ -50,7 +51,22 @@ def getUzbTags():
 app = Flask(__name__)
 @app.route('/')
 def index():
-    dataset = getSampleJson()
+    raw_data = getSampleJson() 
+    dataset = raw_data
     tags = getUzbTags()
-    filtered = []
-    return render_template('index.html', dataset=dataset)
+    tags = sorted(tags.items(), key=lambda item: len(item[1]), reverse=True)
+    filtered = {}
+    for k, v in tags:
+        filtered[k] = len(v)
+    tag_d = {}
+    for elem in tags:
+        tag_d[elem[0]] = elem[1]
+
+    if request.args.get("tags") != None:
+        selected = request.args.get("tags").split(',')
+        indexes = interSearchTag(selected, tag_d)
+        dataset = []
+        for i in indexes:
+            dataset.append(raw_data[i])
+
+    return render_template('index.html', dataset=dataset, tags=filtered)
