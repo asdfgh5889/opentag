@@ -34,7 +34,7 @@
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="text-primary d-flex flex-row font-weight-bold m-0"><span class="d-xl-flex align-items-xl-center" style="width: 100%;">Filter</span>
-                                    <button id="apply_tags" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Intersection</button></h6>
+                                    <button id="apply_tags" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Intersection</button>
                                     <div style="width: 20px"></div>
                                     <button id="apply_tags_u" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Union</button></h6>
                                 </div>
@@ -86,7 +86,7 @@
                     <div class="col">
                         <div class="card shadow">
                             <div class="card-header py-3">
-                                <p class="text-primary m-0 font-weight-bold">Dataset</p>
+                                <p class="text-primary m-0 font-weight-bold">Dataset: {{ dataset|count }}</p>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
@@ -223,10 +223,11 @@
             $.each($(".multipleSelect option:selected"), function(){            
                 selected_tags.push($(this).val());
             });
-            if (selected_tags.length > 0)
+            if (selected_tags.length > 0) {
                 for (var i = 0; i < selected_tags.length; i++)
                     result.push(tags_map[selected_tags[i]])
                 return result
+            }
 
             
             for (var i = 0; i < tag_values.length; i++) {
