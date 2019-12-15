@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Brands.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fastselect/fastselect.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
 </head>
 
@@ -32,9 +33,15 @@
                         <div class="col">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="text-primary d-flex flex-row font-weight-bold m-0"><span class="d-xl-flex align-items-xl-center" style="width: 100%;">Filter</span><button class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Apply</button></h6>
+                                    <h6 class="text-primary d-flex flex-row font-weight-bold m-0"><span class="d-xl-flex align-items-xl-center" style="width: 100%;">Filter</span><button id="apply_tags" class="btn btn-primary d-flex flex-row align-items-xl-center" type="button">Apply</button></h6>
                                 </div>
-                                <div class="card-body"></div>
+                                <div class="card-body">
+                                    <select class="multipleSelect" multiple name="tag">
+                                    {% for t, v in tags.items() %}
+                                        <option value="{{ t }}">{{ t }}</option>
+                                    {% endfor %}
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -42,36 +49,28 @@
                         <div class="col-lg-7 col-xl-8">
                             <div class="card shadow mb-4">
                                 <div class="card-header d-flex justify-content-between align-items-center">
-                                    <h6 class="text-primary font-weight-bold m-0">Data Formats</h6>
-                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
-                                        <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in"
-                                            role="menu">
-                                            <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a><a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
-                                            <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
-                                    </div>
+                                    <h6 class="text-primary font-weight-bold m-0">Tag frequency</h6>
                                 </div>
                                 <div class="card-body">
-                                    <div class="chart-area"><canvas data-bs-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;JSON&quot;,&quot;CSV&quot;,&quot;XML&quot;,&quot;PDF&quot;,&quot;DOC&quot;,&quot;Others&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Earnings&quot;,&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgba(78, 115, 223, 1)&quot;,&quot;data&quot;:[&quot;0&quot;,&quot;10000&quot;,&quot;5000&quot;,&quot;15000&quot;,&quot;10000&quot;,&quot;20000&quot;,&quot;15000&quot;,&quot;25000&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;reverse&quot;:false},&quot;title&quot;:{&quot;display&quot;:false},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(187,197,237)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(187,197,237)&quot;,&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;12&quot;],&quot;zeroLineBorderDash&quot;:[&quot;12&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;beginAtZero&quot;:false,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(187,197,237)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(187,197,237)&quot;,&quot;drawBorder&quot;:true,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;12&quot;],&quot;zeroLineBorderDash&quot;:[&quot;12&quot;],&quot;drawOnChartArea&quot;:true},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;beginAtZero&quot;:false,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                    <div class="chart-area">
+                                        <canvas id="tag-freq"></canvas>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-5 col-xl-4">
                             <div class="card shadow mb-4">
-                                <div class="card-header d-flex justify-content-between align-items-center">
-                                    <h6 class="text-primary font-weight-bold m-0">Tags</h6>
-                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
-                                        <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in"
-                                            role="menu">
-                                            <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a><a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
-                                            <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
-                                    </div>
+                                 <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary d-flex align-items-xl-center font-weight-bold m-0" style="width: 100%;">
+                                    <span style="width: 100%;">Top tags:</span>
+                                    <input id="tag-limit" type="number" style="width: 50px;padding: 0px;margin: 0px 20px;">
+                                    <button class="btn btn-primary" onClick="applyTagLimit()" type="button">Apply</button></h6>
                                 </div>
                                 <div class="card-body">
-                                    <div class="chart-area"><canvas data-bs-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Direct&quot;,&quot;Social&quot;,&quot;Referral&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;&quot;,&quot;backgroundColor&quot;:[&quot;#4e73df&quot;,&quot;#1cc88a&quot;,&quot;#36b9cc&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;50&quot;,&quot;30&quot;,&quot;15&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{}}}"></canvas></div>
-                                    <div
-                                        class="text-center small mt-4"><span class="mr-2"><i class="fas fa-circle text-primary"></i>&nbsp;Direct</span><span class="mr-2"><i class="fas fa-circle text-success"></i>&nbsp;Social</span><span class="mr-2"><i class="fas fa-circle text-info"></i>&nbsp;Refferal</span></div>
+                                    <div class="chart-area">
+                                    <canvas id="tags-chart"></canvas>
+                                </div>
                             </div>
-                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -89,7 +88,7 @@
                                                 <td style="width: 100px;">{{ data['id'] }}</td>
                                                 <td>
                                                     <div class="col">
-                                                        <a href=""><p>{{ data['title'] }}</p></a>
+                                                        <a href="https://data.gov.uz/uz/datasets/{{ data['id'] }}"><p>{{ data['title'] }}</p></a>
                                                         <p>{{ data['description'] }}</p>
                                                     </div>
                                                 </td>
@@ -117,12 +116,127 @@
             </div>
         </footer>
     </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/chart.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/bs-charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='fastselect/fastselect.standalone.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+    <script> 
+        $('.multipleSelect').fastselect();
+        var ctxD = document.getElementById("tags-chart").getContext('2d');
+        var limit = 10
+        tags = [
+            {% for t, v in tags.items() %}
+            "{{ t }}",
+            {% endfor %}
+        ]
+
+        tag_values = [
+            {% for t, v in tags.items() %}
+            "{{ v }}",
+            {% endfor %}
+        ]
+
+        var myLineChart = new Chart(ctxD, {
+            type: 'doughnut',
+            data: {
+                labels: tags.slice(0, limit),
+                datasets: [{
+                data: tag_values.slice(0, limit),
+                backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+            }]
+        },
+        options: {
+            responsive: true
+        }
+        });
+
+        function applyTagLimit() {
+            limit = document.getElementById("tag-limit").value
+            if (limit == undefined)
+                limit = 10
+
+            l_length = myLineChart.data.labels.length
+            for(var i = 0; i < l_length; i++) {
+                myLineChart.data.labels.pop()
+            }
+
+            myLineChart.data.datasets.forEach((dataset) => {
+                d_length = dataset.data.length
+                for(var i = 0; i < d_length; i++) {
+                    dataset.data.pop()
+                }
+            });
+
+            tags.slice(0, limit).forEach((l) => {
+                myLineChart.data.labels.push(l)
+            })
+
+            myLineChart.data.datasets.forEach((dataset) => {
+                tag_values.slice(0, limit).forEach((l) => {
+                    dataset.data.push(l);
+                })
+            });
+            myLineChart.update()
+        }
+
+
+        //bar
+        var ctxB = document.getElementById("tag-freq").getContext('2d');
+        var myBarChart = new Chart(ctxB, {
+        type: 'bar',
+        data: {
+        labels: tags,
+        datasets: [{
+        label: 'Tags',
+        data: tag_values,
+        backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)'
+        ],
+        borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+        ],
+        borderWidth: 1
+        }]
+        },
+        options: {
+        scales: {
+        yAxes: [{
+        ticks: {
+        beginAtZero: true
+        }
+        }]
+        }
+        }
+        });
+
+
+        $("#apply_tags").click(function() {
+            var selected_tags = [];
+            $.each($(".multipleSelect option:selected"), function(){            
+                selected_tags.push($(this).val());
+            });
+            
+            for(var i = 0; i < selected_tags.length; i++) {
+                selected_tags[i] = encodeURIComponent(selected_tags[i])
+            }
+            d = selected_tags.join(',')
+            window.location.replace('http://localhost:5000/?tags=' + d)
+        })
+    </script>
 </body>
 
 </html>
